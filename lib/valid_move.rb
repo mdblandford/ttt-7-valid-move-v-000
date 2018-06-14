@@ -3,8 +3,6 @@ def valid_move?(board,index)
     false
   elsif index < 0 || index > 8
     false
-  #elsif index == nil
-  #  false
   else
     true
   end
